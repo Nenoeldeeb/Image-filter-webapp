@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Image filters </title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Apply some filters to Your images</h1>
+    <div id="candiv">
+        <canvas id="can1"></canvas>
+        <canvas id="can3"></canvas>
+        <canvas id="can2"></canvas>
+    </div>
+    <div id="inputdiv">
+        <div id="f"> Upload foreground image
+            <input type="file" id="forg" multiple="false" accept="image/*" onchange="upfor()">
+        </div>
+        <div id="b">
+            <input type="file" multiple="false" accept="image/*" id="back" onchange="upback()"> Upload background image
+        </div>
+    </div>
+    <div id="butdiv">
+        <input type="button" value="Apply Green Screen effect" onclick="dogreens()">
+        <input type="button" value="Apply grayscale effect" onclick="dograys()">
+        <input type="button" value="Apply red effect" onclick="dored()">
+        <input type="button" value="Apply B&W effect" onclick="dobw()">
+        <input type="button" value="Apply blur" onclick="doblur()">
+        <input type="button" value="Hide image in another" onclick="dosteg()">
+        <input type="button" value="Show hidden info in images" onclick="dounsteg()">
+        <input type="button" value="Reset" onclick="reset()">
+    </div>
+</body>
+<script src="SimpleImage.js"></script>
+<script src="script.js"></script>
+
+</html>

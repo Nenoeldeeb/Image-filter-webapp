@@ -1,0 +1,52 @@
+body{
+    background-color:#073442;
+    text-align:center;
+}
+h1{
+    color:#f7aa03;
+    background-color:#071542;
+    font-size:20pt;
+    font-family: sans;
+    position:absolute;top:5%;left:2%;right:2%;
+}
+#candiv{
+    background-color:#072c42;
+    position: absolute;top:13%;left:2%;right:2%;
+}
+#can1{
+    width:25%;
+    height: 25%;
+    border:2px dashed;
+    color:#0b71ad
+}
+#can2{
+    width:25%;
+    height: 25%;
+    border:2px dashed;
+    color:#0b71ad
+}
+#can3{
+    width:25%;
+    height: 25%;
+    border:2px dashed;
+    color:#0b71ad
+}
+#inputdiv{
+    background-color:#073942 ;
+    color:#faa403;
+     font-family:sans;
+    position: absolute;bottom:15%;left:2%;right:2%;
+}
+#f{
+    float:left;
+}
+#b{
+    background-color:#073942 ;
+    color:#faa403;
+    font-family:sans;
+    float:right;
+}
+#butdiv{
+    background-color:#165965 ;
+    position:absolute;left:2% ;right:2%;bottom:5%;
+}
